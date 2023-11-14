@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Navigation bar -->
+
+    <nav>
+
+            <div class="flex md:mx-auto justify-around my-4">
+
+            <!-- LCG logo -->  
+            <a class="" href="/">
+                    <img class="w-44 md:w-64" src="resources/Header/Logo.png" alt="Homepage">
+            </a>
+            
+                
+            
+
+            <!-- Header buttons -->
+            <div>
+                <ul class="hidden lg:flex text-cyan-500 lg:text-2xl md:text-sm font-semibold my-6 justify-center gap-6">
+                <li class=" hover:bg-gray-100"> <a href="">LCG</a></li> 
+                <li class=" hover:bg-gray-100"> <a href="">SERVIÇOS</a></li>
+                <li class=" hover:bg-gray-100"> <a href="">INDUSTRIAS</a></li> 
+                <li class=" hover:bg-gray-100"> <a href="">PRODUTOS</a></li>
+                <li class=" hover:bg-gray-100"> <a href="">CARREIRAS</a></li> 
+            </ul>
+            </div>
+            
+            <div class="flex flex-col space-y-2 lg:hidden justify-center ">
+                <div class="w-8 h-1 bg-gray-300"></div>
+                <div class="w-8 h-1 bg-gray-300"></div>
+                <div class="w-8 h-1 bg-gray-300"></div>
+            </div>
+            
+            <!-- Language options buttons To change, redirect with a <a href to another index html that will be equal (but in another language)-->
+
+            <div class="hidden lg:flex items-center space-x-4">
+                <button><img src="resources/Header/LanguagePort.png" alt=""></button>
+                <button><img src="resources/Header/LanguageEngl.png" alt=""></button>
+                <button><img src="resources/Header/LanguageSpani.png" alt=""></button>
+            </div>
+
+             </div>
+
+    </nav>
+
+    
+    <!-- First body Image-->
+
+    <div class="relative bg-[url('resources/Header/FirstBodyElement.jpg')] bg-cover h-[200px] md:h-[500px] w-full">
+
+         <div class="absolute right-16 bottom-20 md:bottom-48 md:right-44 lg:bottom-16 lg:right-0 text-white font-bold text-sm md:text-xl lg:text-2xl lg:px-24 ">
+            <p class="backdrop-contrast-125">IMPROVE WHAT WORKS</p>
+            <p class="backdrop-contrast-125">TRANSFORM WHAT DOESN'T WORKS</p>
+        </div>
+
+        <div class="absolute bottom-0 w-full flex justify-center items-center">
+            <img src="resources/Body/BgButton1.svg" alt="">
+        </div>
+
+    </div>
+    
+    
+    <!-- Services -->
+
+    <div class="bg-white my-12 md:my-32 mx-auto container">
+        
+        <p class="text-3xl text-cyan-500 font-bold text-center">Serviços</p>
+        
+        <!-- Services boxes -->
+        
+            <div class="flex flex-col md:flex-row justify-center md:justify-around md:space-y-0 my-12 space-y-6 md:space-x-6 mx-12  lg:text-base md:text-sm">
+
+                <!-- First service box -->
+                <div class="flex flex-col md:w-1/3 border rounded">
+                    <div class="flex h-2/3 ">
+                        
+                        <img class="w-full object-cover rounded-t" src="resources/ServicesIcons/ServiceIcon1.jpg" alt="">
+
+                    </div>
+
+                    <div class="h-1/3 flex flex-col justify-between space-y-2 md:space-y-0 lg:space-y-2  m-2 lg:m-6">
+                        <p class="text-cyan-500">DataScience e BI</p>
+                                    <p>Reports de apoio à decisão e gestão de Big data.</p>
+                                    <p class="text-cyan-500">Saiba mais...</p>
+                    </div>
+                </div>
+
+                <!-- Second service box -->
+                <div class="flex flex-col md:w-1/3 border rounded">
+                    <div class="flex h-2/3  ">
+                        
+                        <img class="w-full object-cover rounded-t" src="resources/ServicesIcons/ServiceIcon2.jpg" alt="">
+                    
+                    </div>
+
+                    <div class="h-1/3 flex flex-col justify-between space-y-2 md:space-y-0 lg:space-y-2  m-2 lg:m-6">
+                        <p class=" text-cyan-500">DataScience e BI</p>
+                                    <p>Reports de apoio à decisão e gestão de Big data.</p>
+                                    <p class=" text-cyan-500">Saiba mais...</p>
+
+                    </div>
+
+                </div>
+
+                <!-- Third service box -->
+                <div class="flex flex-col md:w-1/3 border rounded">
+                    <div class="flex h-2/3 ">
+
+                        <img class="w-full object-cover rounded-t" src="resources/ServicesIcons/ServiceIcon3.jpg" alt="">
+
+                    </div>
+
+                    <div class="h-1/3 flex flex-col justify-between space-y-2 md:space-y-0 lg:space-y-2  m-2 lg:m-6">
+
+                        <p class=" text-cyan-500">DataScience e BI</p>
+                                    <p>Reports de apoio à decisão e gestão de Big data.</p>
+                                    <p class=" text-cyan-500">Saiba mais...</p>
+
+                    </div>
+                </div>
+        
+
+            </div>
+
+    </div>
+
+    <!-- Industry -->
+
+    
+    <div class="my-12 md:my-32 container mx-auto">
+
+
+        <p class="text-center text-3xl text-cyan-500 font-bold">Indústrias</p>
+
+        <!-- Industry boxes -->
+
+        <div class="grid grid-cols-2 md:grid-cols-5 my-12 justify-items-center gap-16 md:gap-16 lg:gap-12  mx-12">
+
+            
+            <div class="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 512 512">
+                    <g fill="#0891b2" stroke="#0891b2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"><g stroke-linejoin="round"></g>
+                    <path  d="M247.002 32v47.725a56.476 56.476 0 0 1 17.996 0V32h-17.996zM256 96.998c-11.5 0-23.002 5.001-23.002 15.002v10.1c7.37-2 15.05-3.098 23.002-3.098 7.953 0 15.632 1.098 23.002 3.098V112c0-10-11.502-15.002-23.002-15.002zm0 40c-28.25 0-53.982 17.938-72.867 42.488-16.345 21.249-26.934 47.277-29.496 67.516h204.726c-2.562-20.239-13.15-46.267-29.496-67.516-18.885-24.55-44.617-42.488-72.867-42.488zm-80 78.004h32v17.996h-32v-17.996zm64 0h32v17.996h-32v-17.996zm64 0h32v17.996h-32v-17.996zm-170.29 49.996-7.53 16.004h259.64l-7.53-16.004H133.71zm1.292 34v28.004h17.996v-28.004h-17.996zm56 0v28.004h17.996v-28.004h-17.996zm56 0v28.004h17.996v-28.004h-17.996zm56 0v28.004h17.996v-28.004h-17.996zm56 0v28.004h17.996v-28.004h-17.996zm-270.004 46v16.004h334.004v-16.004H88.998zm14.004 34v60.004h17.996v-60.004h-17.996zm48 0v60.004h17.996v-60.004h-17.996zm48 0v60.004h17.996v-60.004h-17.996zm48 0v60.004h17.996v-60.004h-17.996zm48 0v60.004h17.996v-60.004h-17.996zm48 0v60.004h17.996v-60.004h-17.996zm48 0v60.004h17.996v-60.004h-17.996zm-350.004 78v30.004h430.004v-30.004H40.998z"/>
+                    </svg>
+                    <p class="text-center mt-4 text-cyan-600 font-semibold">Administração</p>
+                    <p class="text-center text-cyan-600 font-semibold">pública</p>
+            </div>
+            <div class="">
+                <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="140" height="140" viewBox="0 0 80 80">
+                    <g fill="none" stroke="#0891b2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="4"><g stroke-linejoin="round">
+                        <path d="m50.466 47.837.597-.802a3 3 0 0 1 4.198-.616l3.209 2.388a3 3 0 0 1 .616 4.198l-.597.802a3 3 0 0 1-4.198.616l-3.209-2.388a3 3 0 0 1-.616-4.198zM56.25 43.415l-1.893 2.544M61.063 46.997l-1.893 2.544"/></g><path d="M43.551 46.279c9.562-12.708 21.752-26.002 16.628-30.965-5.192-5.288-23.938 1.975-35.168 12.259-11.699 9.811-4.208 20.73-2.052 22.913 2.452 2.42 11.589 8.724 20.592-4.207z"/><path stroke-linejoin="round" d="M49.561 22.933A143.756 143.756 0 0 0 23.275 50.06c-2.924 3.951-2.45 9.466 1.025 12.942h0a11.799 11.799 0 0 0 8.343 3.456h.002a17.5 17.5 0 0 0 12.374-5.126h0a151.916 151.916 0 0 0 6.979-7.465l.609-.697"/><path d="M38.699 24.926c.55 1.96 1.107 3.933 1.677 5.927 2.047.609 4.093 1.212 6.148 1.818M30.89 29.931c1.227 2.184 2.472 4.392 3.74 6.628a958.086 958.086 0 0 0 6.553 3.715M25.619 37.479c.953 1.925 1.933 3.88 2.946 5.868 1.878.956 3.731 1.883 5.564 2.787"/></g>
+                    </svg>
+                    <p class="text-center mt-4 text-cyan-600 font-semibold">Energia</p>
+                    <p class="text-center text-cyan-600 font-semibold">E utilities</p>
+                    
+            </div>
+            <div class="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" fill="none" viewBox="0 0 24 24">
+                    <path stroke="#0891b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3a9 9 0 0 1 9 9m-9-5a5 5 0 0 1 5 5m-7 2 2-2m-2 9A7 7 0 0 1 5.05 9.05l9.901 9.901A6.98 6.98 0 0 1 10 21Z"/>
+                    </svg>            
+                    <p class="text-center mt-4 text-cyan-600 font-semibold">Telecomunicações</p>
+            </div>
+            <div class="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" fill="none" viewBox="0 0 24 24">
+                    <path stroke="#0891b2" stroke-linecap="round" stroke-width="2" d="M7 16h1m3.5 0h1m3.5 0h1m1.4 4H5.6c-.56 0-.84 0-1.054-.109a1 1 0 0 1-.437-.437C4 19.24 4 18.96 4 18.4V4.8c0-.28 0-.42.054-.527a.5.5 0 0 1 .219-.218C4.38 4 4.52 4 4.8 4h2.4c.28 0 .42 0 .527.054a.5.5 0 0 1 .218.219C8 4.38 8 4.52 8 4.8v4.269c0 .605 0 .908.12 1.049a.5.5 0 0 0 .42.173c.183-.014.397-.228.826-.657l3.268-3.268c.429-.429.643-.643.827-.657a.5.5 0 0 1 .42.173c.119.14.119.444.119 1.05v2.137c0 .605 0 .908.12 1.049a.5.5 0 0 0 .42.173c.183-.014.397-.228.826-.657l3.268-3.268c.429-.429.643-.643.827-.657a.5.5 0 0 1 .42.173c.119.14.119.444.119 1.05V18.4c0 .56 0 .84-.109 1.054a1 1 0 0 1-.437.437C19.24 20 18.96 20 18.4 20Z"/>
+                    </svg>
+                    <p class="text-center mt-4 text-cyan-600 font-semibold">Indústrias</p>
+            </div>
+            <div class="">
+                <svg xmlns="http://www.w3.org/2000/svg"  width="140" height="140" fill="#0891b2" stroke="#0891b2" viewBox="0 0 512 512"><path fill-rule="evenodd" d="M256 0C114.609 0 0 114.609 0 256s114.609 256 256 256 256-114.609 256-256S397.391 0 256 0zm0 472c-119.297 0-216-96.703-216-216S136.703 40 256 40s216 96.703 216 216-96.703 216-216 216z" clip-rule="evenodd"/><path d="M256 336.219c-30.031 0-61.438-6.328-79.844-19.703 0 .219-.156.438-.156.641v19.062C176 353.781 211.812 368 256 368s80-14.219 80-31.781v-19.062c0-.203-.156-.422-.156-.641-18.406 13.375-49.828 19.703-79.844 19.703z"/><path d="M256 288.547c-30.031 0-61.438-6.312-79.844-19.688 0 .219-.156.422-.156.641v19.047c0 17.562 35.812 31.797 80 31.797s80-14.234 80-31.797V269.5c0-.219-.156-.422-.156-.641-18.406 13.375-49.828 19.688-79.844 19.688z"/><path d="M176 222.656v18.25c0 17.562 35.812 31.781 80 31.781s80-14.219 80-31.781v-18.25c-18.375 13.469-49.891 19.844-80 19.844s-61.625-6.375-80-19.844z"/><path d="M256 144c-44.188 0-80 14.219-80 31.781v19.062c0 17.531 35.812 31.766 80 31.766s80-14.234 80-31.766v-19.062C336 158.219 300.188 144 256 144z"/>
+                </svg>
+                <p class="text-center mt-4 text-cyan-600 font-semibold">Banca e</p>
+                    <p class="text-center text-cyan-600 font-semibold">Serviços</p>
+                    <p class="text-center text-cyan-600 font-semibold">Financeiros</p>
+            </div>
+            <div class="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" fill="none" viewBox="0 0 24 24">
+                    <path stroke="#0891b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5v14m0-3h18m0 3v-5.8c0-1.12 0-1.68-.218-2.108a2 2 0 0 0-.874-.874C19.48 10 18.92 10 17.8 10H11v5.727M7 12h.01M8 12a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"/>
+                    </svg>
+                    <p class="text-center mt-4 text-cyan-600 font-semibold">Turismo</p>
+                    <p class="text-center text-cyan-600 font-semibold">e Hotelaria</p>
+            </div>
+            <div class="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" fill="#0891b2" viewBox="0 0 24 24"><path d="M9 18.5A2.5 2.5 0 1 1 6.5 16 2.5 2.5 0 0 1 9 18.5Zm8.5-2.5a2.5 2.5 0 1 0 2.5 2.5 2.5 2.5 0 0 0-2.5-2.5ZM12 3H3a1 1 0 0 0-1 1v4h11V4a1 1 0 0 0-1-1ZM2 16a.986.986 0 0 0 .355.749 4.486 4.486 0 0 1 8.369.251H13v-7H2ZM15 6v8.762a4.494 4.494 0 0 1 6.645 1.987A.986.986 0 0 0 22 16v-6l-3-4Z"/>
+                </svg>
+                <p class="text-center mt-4 text-cyan-600 font-semibold">Transportes</p>
+                <p class="text-center text-cyan-600 font-semibold">e Logística</p>
+            </div>
+            <div class="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" fill="none" viewBox="0 0 24 24">
+                    <path stroke="#0891b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 17h8m-8 0a2 2 0 1 1-4 0m4 0a2 2 0 1 0-4 0m12 0a2 2 0 1 0 4 0m-4 0a2 2 0 1 1 4 0M10 5v6m-6 0 .332-1.99c.237-1.424.356-2.137.711-2.671a3 3 0 0 1 1.27-1.076C6.9 5 7.622 5 9.066 5h3.365c.94 0 1.409 0 1.835.13a3 3 0 0 1 1.033.552c.345.283.605.674 1.126 1.455L19 11M4 17h-.4c-.56 0-.84 0-1.054-.109a1 1 0 0 1-.437-.437C2 16.24 2 15.96 2 15.4v-1.2c0-1.12 0-1.68.218-2.108a2 2 0 0 1 .874-.874C3.52 11 4.08 11 5.2 11h12c.743 0 1.115 0 1.426.05a4 4 0 0 1 3.325 3.324c.049.311.049.683.049 1.426 0 .186 0 .279-.012.356a1 1 0 0 1-.832.832c-.077.012-.17.012-.356.012H20"/>
+                    </svg>
+                    <p class="text-center mt-4 text-cyan-600 font-semibold">Automóvel</p>
+            </div>
+            <div class="">
+                <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="140" height="140" fill="#0891b2" viewBox="0 0 256 240"><path d="M84.635 20.256c18.383 0 33.286 14.903 33.286 33.286s-14.903 33.286-33.286 33.286-33.286-14.903-33.286-33.286 14.902-33.286 33.286-33.286zM31.002 145.011c0-2.499 1.606-4.194 4.194-4.194s4.194 1.606 4.194 4.194v92.986h91.469v-92.986c0-2.499 1.606-4.194 4.194-4.194 2.499 0 4.194 1.606 4.194 4.194v92.986h29.092V136.623c0-22.934-18.74-41.585-41.585-41.585h-8.388l-24.451 38.015-2.945-28.467 4.016-9.638H76.96l4.016 9.638-3.123 28.645-24.452-38.193h-9.816C20.651 95.038 2 113.778 2 136.623v101.375h29.092v-92.986h-.09zm221.131-87.513L238.15 10.946h-31.918V5.17c0-1.563-1.563-3.17-3.17-3.17-1.563 0-3.17 1.563-3.17 3.17v5.819h-31.918l-13.983 46.509h-1.867c0 10.552 8.555 19.151 19.151 19.151s19.151-8.555 19.151-19.151h-2.128l-13.201-43.643h25.057v67.918h-24.796V91.5h55.41v-9.727h-24.796V13.855h25.057l-13.201 43.643H215.7c0 10.552 8.555 19.151 19.151 19.151S254 68.094 254 57.498h-1.867zm-68.178 0h-25.361l12.55-42.34 12.811 42.34zm38.214 0 12.811-42.34 12.55 42.34h-25.361z"/>
+                </svg>
+                    <p class="text-center mt-4 text-cyan-600 font-semibold">Legal</p>
+            </div>
+            <div class="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" fill="none" viewBox="0 0 24 24">
+                    <path stroke="#0891b2" stroke-linecap="round" stroke-width="1.5" d="M18.5 9h-2m0 0h-2m2 0V7m0 2v2"/><path fill="#0891b2" d="m8.962 19.379.472-.583-.472.583ZM12 5.574l-.548.512a.75.75 0 0 0 1.096 0L12 5.574Zm3.038 13.805.473.582-.473-.582ZM12 21v-.75.75Zm-9.348-7.318a.75.75 0 1 0 1.283-.776l-1.283.776Zm3.885 2.489a.75.75 0 1 0-1.074 1.046l1.074-1.046ZM2.75 9.318c0-2.905 1.268-4.7 2.836-5.315 1.565-.613 3.754-.175 5.866 2.083l1.096-1.024c-2.388-2.554-5.199-3.36-7.509-2.456C2.732 3.51 1.25 5.992 1.25 9.318h1.5ZM15.51 19.96c1.493-1.211 3.281-2.834 4.703-4.647 1.407-1.794 2.537-3.879 2.537-5.997h-1.5c0 1.612-.88 3.364-2.218 5.071-1.324 1.689-3.016 3.232-4.466 4.408l.945 1.165Zm7.24-10.644c0-3.325-1.482-5.807-3.79-6.71-2.31-.905-5.12-.1-7.508 2.455l1.096 1.024c2.112-2.258 4.301-2.696 5.866-2.083 1.568.614 2.836 2.41 2.836 5.314h1.5ZM8.49 19.961c1.27 1.032 2.152 1.789 3.51 1.789v-1.5c-.723 0-1.173-.324-2.566-1.454l-.945 1.165Zm6.076-1.165c-1.393 1.13-1.843 1.454-2.566 1.454v1.5c1.358 0 2.24-.757 3.51-1.789l-.944-1.165Zm-10.63-5.89C3.187 11.67 2.75 10.455 2.75 9.318h-1.5c0 1.512.576 3 1.402 4.364l1.283-.776Zm5.498 5.89a33.875 33.875 0 0 1-2.897-2.625l-1.074 1.046a35.35 35.35 0 0 0 3.026 2.744l.945-1.165Z"/>
+                    </svg>
+                    <p class="text-center mt-4 text-cyan-600 font-semibold">Saúde</p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!--Second body image -->
+
+    <div class="relative bg-[url('resources/Header/SecondBody.jpg')] bg-cover h-[200px] md:h-[500px] w-full">
+
+       
+        
+        <div class="absolute right-16 bottom-20 md:bottom-48 md:right-44 lg:bottom-16 lg:right-0 text-white font-bold text-sm md:text-xl lg:text-2xl lg:px-24 ">
+            <p class="backdrop-contrast-125">IMPROVE WHAT WORKS</p>
+            <p class="backdrop-contrast-125">TRANSFORM WHAT DOESN'T WORKS</p>
+        </div>
+
+        <div class="absolute bottom-0 w-full flex justify-center items-center">
+            <img src="resources/Body/BgButton2.svg" alt="">
+        </div>
+
+    </div>
+    
+
+    
+    <!-- Products -->
+
+    <div class="container my-12 md:my-32 mx-auto"> 
+        <p class="text-center text-3xl text-cyan-500 font-bold">Produtos</p>
+    
+        <div class="flex flex-col md:flex-row md:justify-center md:space-x-12 space-y-10 md:space-y-0 mt-12">
+            <div class=" w-4/6 md:w-2/6 self-center">
+                <img class="rounded w-full" src="resources/Product/prod1.jpg" alt="">
+            </div>
+    
+            <div class=" w-4/6 md:w-2/6 self-center">
+                <img class="rounded w-full" src="resources/Product/prod2.jpg" alt>
+            </div>
+        </div>
+    
+        <div class="flex justify-center  mt-10">
+            <img class="rounded  w-4/6 md:w-2/6" src="resources/Product/prod3.jpg" alt>
+        </div>
+
+    </div>
+    
+    
+
+    <!--Third body image-->
+
+    <div class="relative bg-[url('resources/Header/ThirdBody.jpg')] bg-cover h-[200px] md:h-[500px] w-full">
+
+        
+        <div class="absolute right-16 bottom-20 md:bottom-48 md:right-44 lg:bottom-16 lg:right-0 text-white font-bold text-sm md:text-xl lg:text-2xl lg:px-24 ">
+            <p class="backdrop-contrast-125">IMPROVE WHAT WORKS</p>
+            <p class="backdrop-contrast-125">TRANSFORM WHAT DOESN'T WORKS</p>
+        </div>
+
+        <div class="absolute bottom-0 w-full flex justify-center items-center">
+            <img src="resources/Body/BgButton1.svg" alt="">
+        </div>
+
+    </div>
+
+    <!-- Carrers -->
+
+    <div class="bg-white h-auto my-12 md:my-32 mx-8">
+
+        <p class="text-center text-3xl  text-cyan-500 font-bold">Carreiras</p>
+
+        <div class="flex flex-col md:flex-row md:space-x-4 space-y-6 md:space-y-0 my-12"> 
+
+            <div class="flex sm:flex-row md:flex-col lg:flex-row  md:items-center lg:items-start md:w-1/3 gap-4">
+                <div class="w-1/2">
+                    <img class="md:w-full lg:w-4/5 rounded" src="resources/Carrer/carr1.jpg">
+                </div>
+            
+                <div class="text-gray-500 w-1/2 ">
+                    <h1 class="text-xl mb-2 font-bold">DATA ANALYST</h1>
+                    <p class="font-medium">Cliente/Sector: <span class="font-normal">Telecomunicações</span> </p>
+                    <p>Local:Lisboa(modelo híbrido)</p>
+                </div>
+            </div>
+            
+            <div class="flex sm:flex-row md:flex-col lg:flex-row md:items-center lg:items-start md:w-1/3 gap-4">
+
+                <div class="w-1/2">
+                    <img class="md:w-full lg:w-4/5 rounded" src="resources/Carrer/carr2.jpg">
+                </div>
+                <div class=" text-gray-500 w-1/2 ">
+                        <h1 class="text-xl mb-2 font-bold">BI CONSULTANT (ETL)</h1>
+                        <p class="font-medium">Cliente/Sector: <span class="font-normal">Consultora de Tecnologias de Informação</span> </p>
+                        <p>Local: Lisboa(modelo híbrido)</p>
+                </div>
+            </div>
+
+            <div class="flex sm:flex-row md:flex-col lg:flex-row  md:items-center lg:items-start md:w-1/3 gap-4 md:gap-0">
+                <div class="w-1/2">
+                    <img class="md:w-full lg:w-4/5 rounded" src="resources/Carrer/car3.jpg">
+                </div>
+                    <div class="text-gray-500 w-1/2 ">
+                        <h1 class="text-xl mb-2 font-bold">SAP CO CONSULTANT</h1>
+                        <p class="font-medium">Cliente/Sector: <span class="font-normal">Telecomunicações</span> </p>
+                        <p>Local: Remoto</p>
+                    </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="mx-auto bg-gray-50 py-12 space-y-10 lg:space-y-0">
+        
+        <div class="flex flex-col md:flex-row lg:justify-between space-y-10 md:space-y-0 mx-6 md:mx-12">
+            
+            <div class="md:w-1/2 lg:w-3/12">
+            <img  src="resources/Header/Logo.png" alt="">
+            </div>
+            
+            <div class="flex  justify-end">
+                
+                <img src="resources/Fotter/BottomQRcode.png" alt="">
+
+                <div class="md:w-2/6"> 
+                    <p class="text-sm">
+                        Rua António Champalimaud, Polo Tecnológico de Lisboa, EE3, Piso 1 - Sala 114 1600-546 Lisboa
+                    </p>
+                    <p class="text-cyan-500 text-sm underline decoration-cyan-500">
+                        geral@lcg.consulting 
+                    </p>
+                    <p class="text-cyan-500 text-sm underline decoration-cyan-500">
+                            www.lcg.consulting 
+                    </p>
+                </div>
+               
+            </div>
+
+        </div>
+        
+        <div class="flex flex-col justify-between lg:flex-row  mx-6 md:mx-12 space-y-12 lg:space-y-0 lg:space-x-4">
+            
+
+            <div class="flex gap-2 lg:gap-6 lg:w-1/2">
+                <img class="w-12 h-20" src="resources/Fotter/BottomIpac.jpg" alt="">
+                <p class="text-xs"> 1 O Grupo LCG é composto por 10 empresas, sendo que as empresas certificadas e titulares da certificação ISO:9001: 2015, têm sede na localização de Lisboa (Rua António Champalimaud, Pólo Tecnológico de Lisboa, Edifício Empresarial 3 – 114, 1600 – 546 Lisboa), o escritório de Santarém está excluído do âmbito da certificação. Empresas certificadas: LCG - Consultoria, S.A., LCG MAC, Lda., LCG XAD, Lda., LCG ANT, Lda., LCG Business Support Services, Lda., LCG Applications 4 Business, Lda. e ACINET, Lda. Pese embora a igualdade dos processos e procedimentos adotados para as restantes empresas que fazem parte do Grupo, esta certificação não abrange as empresas LCG CIC, Lda. e LCG Analytics Consultoria, Lda., LCG SSC, Lda.
+                </p>
+        
+            </div>
+            
+            <div class="flex  md:space-x-6 lg:space-x-32 md:text-sm :text-base justify-around">
+                <p class="text-cyan-500  self-center text-center ">
+                    Política de Privacidade
+                </p>  
+    
+                <p class="text-cyan-500  self-center text-center">
+                    Política de cookies
+                </p> 
+    
+                <p class="text-cyan-500 self-center text-center">
+                    Política de Qualidade
+                </p>
+            </div>
+            
+        
+        </div>
+
+    </footer>
+
+    
+</body>
+</html>
